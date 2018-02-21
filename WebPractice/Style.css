@@ -59,7 +59,7 @@ img {
     display: flex;
     -webkit-filter: sepia(.5);
     filter: sepia(.5);
-    border: 10px black;
+
 }
     img:hover {
         -webkit-transform: rotateZ(-30deg);
@@ -68,14 +68,13 @@ img {
         opacity: 0.5;
     }
 #rabbit-2 {
-    padding-top: 25px;
+    margin-top: 25px;
     width: 293px;
     height: auto;
-    border-bottom: 1px;
-    border-left: 1px;
-    border-right: 1px;
-    border-top: 1px;
-    border-color: white;
+    border: 3px solid #e2deae;
+}
+#rabbit-1 {
+    border: 3px solid #e2deae;
 }
 
 .col-2 {
@@ -104,7 +103,7 @@ header, footer {
 h5 {
     animation: rubberBand 6s ease 1s /*3 alternate forwards*/;
     font-family: Euphemia;
-    font-size: 15px;
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
